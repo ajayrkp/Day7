@@ -4,7 +4,7 @@ body  h1, h2 {
 }
 
 /* background color and image */
-body {
+container {
 	background-image: none; 
 }
 
@@ -28,3 +28,45 @@ tr.even {
 	background-color: #efefef;}
 tr:hover {
 	background-color: #c3e6e5;}
+	
+		/* 3 Column */
+	#leftSidebar {
+		float:left;
+		width: 158px;
+		height:650px;
+		border-width:2px;
+		border-style:solid;
+		border-color: red;
+		border-radius:4px;
+		background-color: rgb(85, 142, 213);
+	}
+	#leftSidebar:hover {		
+		background-color: rgb(0,255,0);
+	}
+	#rightSidebar {
+		float:right;
+		width: 158px;
+		height:650px;
+		border-width:2px;
+		border-style:solid;
+		border-color: red;
+		border-radius:4px;
+		background-color: rgb(85, 142, 213);
+	}
+	#rightSidebar:hover {		
+		background-color: rgb(0,255,0);
+	}
+	#mainContent {
+		background-color: rgb(195, 214,155);
+		height:650px;
+		padding: 1px;
+		border-width:2px;
+		border-style:solid;
+		border-color: magenta;
+		margin-right:160px;
+		border-radius:4px;
+		margin-left: 160px;*/
+	}
+	#mainContent:hover {		
+		background-color: rgb(0,255,0);
+	}
